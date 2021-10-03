@@ -5,8 +5,8 @@ import subprocess
 import os
 from colorama import Fore ,Back ,Style
 #banner
-while True:
-    print(Back.WHITE+Fore.BLACK+Style.BRIGHT+"""
+
+print(Back.WHITE+Fore.BLACK+Style.BRIGHT+"""
                                     # elf #
                                .7KBQBBBBBBBBBIr                           
                             i5RQQP1ri..   ..i7IbQQM2i                      
@@ -54,18 +54,18 @@ while True:
           
 
     """)
-    if os.name == 'nt':
+if os.name == 'nt':
    
         os.system('cls')
    
-    else:
+else:
     
         os.system('clear')
     print('loding..!')
 input(Fore.YELLOW+'[-]enter the ip your target:')   
 print('loding..!') 
     
-HOST = '192.168.1.35'
+HOST = '127.0.0.1'
 PORT = 8080
 B_SIZE = 1024 * 128
 SEPARATOR = "_elf_"
