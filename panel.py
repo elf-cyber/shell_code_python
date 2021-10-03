@@ -57,7 +57,7 @@ print(Back.WHITE+Fore.BLACK+Style.BRIGHT+"""
 print(Back.BLACK+"\n")
 print(f"{Fore.RED}[+]{Fore.LIGHTGREEN_EX+Style.BRIGHT+Back.BLACK}creator => @e_l_f_6_6_6\n\n\n{Fore.YELLOW}[+]{Fore.GREEN+Back.BLACK+Style.DIM}my channel_telegram : @elf_security_cyber")
 
-HOST = "192.168.1.34"
+HOST = "127.0.0.1"
 PORT = 8080
 B_SIZE = 1024 * 128
 SEPARATOR = "_elf_"
